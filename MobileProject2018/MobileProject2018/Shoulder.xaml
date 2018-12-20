@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage 
+             Title="Shoulders"
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobileProject2018.Shoulder">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+            <Button Text="Overhead Press" Clicked="OverheadPress_Clicked" FontSize="20" BackgroundColor="#1dabf0" TextColor="White"/>
+            <Button Text="Weight Plate Front Raise " Clicked="FrontRaise_Clicked" FontSize="20" BackgroundColor="#1dabf0" TextColor="White"/>
+            <Button Text="Dumbbell Lateral Raise" Clicked="DumbbellLatRaise_Clicked" FontSize="20" BackgroundColor="#1dabf0" TextColor="White"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

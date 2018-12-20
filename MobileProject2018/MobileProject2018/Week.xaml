@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage 
+             Title="Week"
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobileProject2018.Week">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+            <Button Text="Monday" Clicked="Monday_Clicked" FontSize="20" BackgroundColor="#1dabf0" TextColor="White"/>
+            <Button Text="Tuesday" Clicked="Tuesday_Clicked" FontSize="20" BackgroundColor="#1dabf0" TextColor="White"/>
+            <Button Text="Wednesday" Clicked="Wednesday_Clicked" FontSize="20" BackgroundColor="#1dabf0" TextColor="White"/>
+            <Button Text="Thursday" Clicked="Thursday_Clicked" FontSize="20" BackgroundColor="#1dabf0" TextColor="White"/>
+            <Button Text="Friday" Clicked="Friday_Clicked" FontSize="20" BackgroundColor="#1dabf0" TextColor="White"/>
+            <Button Text="Saturday" Clicked="Saturday_Clicked" FontSize="20" BackgroundColor="#1dabf0" TextColor="White"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

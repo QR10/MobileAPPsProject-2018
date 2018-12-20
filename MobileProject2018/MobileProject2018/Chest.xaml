@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage 
+             Title="Chest"
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobileProject2018.Chest">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+            <Button Text="Incline Bench Press" Clicked="IncBenchPress_Clicked" FontSize="20" BackgroundColor="#1dabf0" TextColor="White"/>
+            <Button Text="Decline Bench Press" Clicked="DecBenchPress_Clicked" FontSize="20" BackgroundColor="#1dabf0" TextColor="White"/>
+            <Button Text="Pullover" Clicked="Pullover_Clicked" FontSize="20" BackgroundColor="#1dabf0" TextColor="White"/>
+            <Button Text="Dumbbell Flys" Clicked="Flys_Clicked" FontSize="20" BackgroundColor="#1dabf0" TextColor="White"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage 
+             Title="Triceps"
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobileProject2018.Tricep">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+            <Button Text="French Press" Clicked="FrenchPress_Clicked" FontSize="20" BackgroundColor="#1dabf0" TextColor="White"/>
+            <Button Text="Lying Tricep Extension" Clicked="LyingTricepExtension_Clicked" FontSize="20" BackgroundColor="#1dabf0" TextColor="White"/>
+            <Button Text="Straight Tricep Extension " Clicked="StraightTricepExtension_Clicked" FontSize="20" BackgroundColor="#1dabf0" TextColor="White"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

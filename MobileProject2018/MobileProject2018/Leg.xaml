@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage 
+             Title="Legs"
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobileProject2018.Leg">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+            <Button Text="Barbell Back Squat" Clicked="Squat_Clicked" FontSize="20" BackgroundColor="#1dabf0" TextColor="White"/>
+            <Button Text="Leg Extension" Clicked="LegExtension_Clicked" FontSize="20" BackgroundColor="#1dabf0" TextColor="White"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

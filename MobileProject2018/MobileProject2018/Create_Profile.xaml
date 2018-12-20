@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobileProject2018.Create_Profile">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Create Your Profile" FontSize="Medium" HorizontalTextAlignment="Center"/>
+            <Entry x:Name="txtFirstName" Placeholder="Enter First Name"/>
+            <Entry x:Name="txtLastName" Placeholder="Enter Last Name"/>
+            <Button Text="Create" Clicked="BtnStore_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

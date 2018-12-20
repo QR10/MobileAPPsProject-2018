@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobileProject2018.Calves_SeatedRaise">
+    <ContentPage.Content>
+        <StackLayout Margin="5">
+            <Label Text="Seated Calf Raise" HorizontalOptions="CenterAndExpand" FontSize="30"/>
+            <WebView Source="https://www.youtube.com/embed/Yh5TXz99xwY" HeightRequest="270"
+            WidthRequest="1000"/>
+            <Label Text="Reps" FontSize="20" HorizontalOptions="Center"/>
+            <Label Text="Following the instructons from the video, execute 4 series."/>
+            <Label Text="- On the 1st serie do 10 reps using 40% of your max weight"/>
+            <Label Text="- On the 2nd serie do 10 reps using 60% of your max weight"/>
+            <Label Text="- On the 3rd serie do 8 reps using 80% of your max weight"/>
+            <Label Text="- On the 4th serie do 6 reps using 100% of your max weight"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

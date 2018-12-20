@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobileProject2018.BMI_Calculator">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="Center" VerticalOptions="CenterAndExpand">
+            <Label Text="BMI Calculator"/>
+
+            <!-- User inputs -->
+            <Entry Placeholder="Enter your Height in metres." x:Name="height" Keyboard="Numeric"/>
+            <Entry Placeholder="Enter your Weight in kilograms." x:Name="weight" Keyboard="Numeric"/>
+
+            <Button x:Name="CalculateBMI" Text="Calculate" Clicked="CalculateBMI_Clicked" BackgroundColor="#1dabf0" TextColor="White"/>
+            <Button Text="BMI Table" Clicked="BMITable_Clicked" BackgroundColor="#1dabf0" TextColor="White"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
